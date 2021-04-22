@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  scoped_model: ^1.0.1
   flutter:
     sdk: flutter
 
@@ -46,10 +47,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-  - apple.jpg
-  - carrot.jpg
-  - banana.jpg
-  - cucumber.jpg
+  - assets/apple.jpg
+  - assets/carrot.jpg
+  - assets/banana.jpg
+  - assets/cucumber.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
