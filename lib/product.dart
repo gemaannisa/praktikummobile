@@ -24,18 +24,16 @@ class Product extends Model {
 
   static List<Product> getProducts() {
     List<Product> items = <Product>[];
-    items.add(Product("Pixel", "Pixel is the most feature-full phone ever", 800,
-        "pixel.png", 0));
-    items.add(Product("Laptop", "Laptop is most productive development tool",
-        2000, "laptop.png", 0));
     items.add(Product(
-        "Tablet",
-        "Tablet is the most useful device ever for meeting",
-        1500,
-        "tablet.png",
-        0));
-    items.add(Product("Pendrive", "Pendrive is useful storage medium", 100,
-        "pendrive.png", 0));
+        "Apple", "Apple is the most common fruit ever", 4, "apple.jpg", 0));
+    items.add(Product("Banana", "Banana is the most famous yellowish fruits", 7,
+        "banana.jpg", 0));
+    items.add(Product(
+        "Cucumber", "Cucumber is great for your health", 6, "cucumber.jpg", 0));
+    items.add(Product(
+        "Carrot", "The color is so great and ayecatching", 5, "carrot.jpg", 0));
+    items.add(Product(
+        "Tomato", "Tomato is great for pasta sauce", 7, "tomato.jpg", 0));
     return items;
   }
 }
